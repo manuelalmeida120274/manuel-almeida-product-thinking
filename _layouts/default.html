@@ -35,6 +35,13 @@
     </div>
   </header>
 
+  {% if page.url == "/" or page.url == "/README" or page.url == "" %}
+  <div class="hero">
+    <img src="{{ '/assets/images/hero.jpg' | relative_url }}" alt="Manuel Almeida presenting at a product event">
+    <div class="hero-overlay"></div>
+  </div>
+  {% endif %}
+
   <main class="page-content">
     <div class="wrapper">
       {{ content }}

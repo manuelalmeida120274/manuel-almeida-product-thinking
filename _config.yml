@@ -1,0 +1,8 @@
+title: "Manuel Almeida"
+description: "From Developer to AI-Oriented Product Manager"
+theme: minima
+minima:
+  skin: classic
+plugins:
+  - jekyll-feed
+

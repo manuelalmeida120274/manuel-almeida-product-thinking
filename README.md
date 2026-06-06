@@ -1,6 +1,6 @@
 # From Developer to AI-Oriented Product Manager
 
-A short collection of articles about ERP, product management and the evolution of business software, written from the perspective of someone who moved from software development and functional analysis into product strategy, ERP innovation and AI-oriented product management.
+A short collection of articles about ERP, product management and the evolution of business software, from the perspective of someone who moved from software development and functional analysis into product strategy, ERP innovation and AI-oriented product management.
 
 ---
 

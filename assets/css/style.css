@@ -45,13 +45,10 @@ body {
 
 /* ── Header ── */
 .site-header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
   background: var(--header-bg);
   padding: 1.1rem 0;
   border-bottom: 1px solid var(--border);
-  margin-bottom: 0;
+  margin-bottom: 3rem;
 }
 
 .header-inner {

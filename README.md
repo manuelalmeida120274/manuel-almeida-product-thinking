@@ -26,5 +26,5 @@ This page brings together a few articles that reflect how I think about useful s
 
 ---
 
-LinkedIn: [add link]  
-Contact: [add email]
+LinkedIn: [Manuel Almeida](https://www.linkedin.com/in/manuelalmeida1974)  
+Contact: manuelalmeida120274@gmail.com

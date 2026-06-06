@@ -1,0 +1,140 @@
+---
+---
+
+/* Reset minima defaults cleanly */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.75;
+  color: #1a1a1a;
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hide the site header / repo title bar */
+.site-header {
+  display: none;
+}
+
+/* Hide the site footer */
+.site-footer {
+  border-top: 1px solid #e0e0e0;
+  padding: 2rem 0;
+  color: #888;
+  font-size: 0.85rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Main content wrapper */
+.page-content {
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+/* Main title H1 */
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #111111;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.01em;
+}
+
+/* Section headings H2 */
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Article section headings (## 1. Lesson...) */
+h2:not(:first-of-type) {
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+  border-bottom: none;
+  margin-top: 2.5rem;
+}
+
+/* Subtitle paragraph right after H1 */
+h1 + p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1rem;
+  color: #555555;
+  line-height: 1.6;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+/* Body paragraphs */
+p {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+/* Horizontal rules */
+hr {
+  border: none;
+  border-top: 1px solid #e8e8e8;
+  margin: 2.5rem 0;
+}
+
+/* Links */
+a {
+  color: #2563a8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Ordered and unordered lists */
+ol, ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+}
+
+/* Italic disclaimer */
+em {
+  color: #666666;
+  font-size: 0.9rem;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  .wrapper {
+    padding: 2rem 1.25rem 3rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+  }
+}
+

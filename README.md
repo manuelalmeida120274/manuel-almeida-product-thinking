@@ -24,7 +24,3 @@ This page brings together a few articles that reflect how I think about useful s
 
 *Opinions expressed are my own and do not represent my employer or any other entity.*
 
----
-
-LinkedIn: [Manuel Almeida](https://www.linkedin.com/in/manuelalmeida1974)  
-Contact: manuelalmeida120274@gmail.com

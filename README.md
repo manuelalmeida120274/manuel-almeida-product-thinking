@@ -16,11 +16,28 @@ This page brings together a few articles that reflect how I think about useful s
 
 ## Articles
 
-1. [What 25 Years in ERP Taught Me About Building Useful Software](articles/01-what-25-years-in-erp-taught-me.md)
-2. [Product Management in AI-Native Business Software](articles/02-product-management-in-ai-native-business-software.md)
-3. [From Menu-Driven ERP to AI-Native Business Platforms](articles/03-from-menu-driven-erp-to-ai-native-business-platforms.md)
+<div class="article-cards">
+
+  <a class="article-card" href="articles/01-what-25-years-in-erp-taught-me">
+    <div class="article-card-label">ERP &amp; Product Thinking</div>
+    <div class="article-card-title">What 25 Years in ERP Taught Me About Building Useful Software</div>
+    <div class="article-card-desc">Seven lessons from a long career in business software — on complexity, trust, flexibility and product judgment.</div>
+  </a>
+
+  <a class="article-card" href="articles/02-product-management-in-ai-native-business-software">
+    <div class="article-card-label">Product Management</div>
+    <div class="article-card-title">Product Management in AI-Native Business Software</div>
+    <div class="article-card-desc">Three responsibilities that matter most when building AI-native business products: outcomes, trust, and accountability beyond delivery.</div>
+  </a>
+
+  <a class="article-card" href="articles/03-from-menu-driven-erp-to-ai-native-business-platforms">
+    <div class="article-card-label">ERP Evolution</div>
+    <div class="article-card-title">From Menu-Driven ERP to AI-Native Business Platforms</div>
+    <div class="article-card-desc">Five shifts defining the transition from navigation-driven software to AI-native, agent-oriented business platforms.</div>
+  </a>
+
+</div>
 
 ---
 
 *Opinions expressed are my own and do not represent my employer or any other entity.*
-

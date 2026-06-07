@@ -1,6 +1,6 @@
 # Product Management in AI-Native Business Software
 
-[Back to index](../#articles)
+[Back to index](../README.md)
 
 ---
 
@@ -88,4 +88,4 @@ Good product management is not about adding intelligence everywhere. It is about
 
 *Opinions expressed are my own and do not represent my employer or any other entity.*
 
-[Back to index](../#articles)
+[Back to index](../README.md)

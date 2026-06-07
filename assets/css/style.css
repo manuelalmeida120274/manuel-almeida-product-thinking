@@ -327,3 +327,8 @@ em {
 }
 .nav-items a:last-child { border-bottom: none; }
 .nav-items a:hover { color: var(--link); text-decoration: none; }
+
+/* ── Anchor offset ── */
+h1, h2 {
+  scroll-margin-top: 2rem;
+}

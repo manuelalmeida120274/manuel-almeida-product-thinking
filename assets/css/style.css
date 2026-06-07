@@ -333,15 +333,20 @@ h1, h2 {
   scroll-margin-top: 2rem;
 }
 
-/* ── Article hero (shorter) ── */
-.hero-article img {
-  height: 200px;
+/* ── Article hero (shorter, no crop) ── */
+.hero-article {
+  max-height: none;
+  overflow: visible;
 }
 
-.hero-article {
-  max-height: 200px;
+.hero-article img {
+  height: auto;
+  max-height: 160px;
+  object-fit: contain;
+  object-position: center;
+  background: #0a0a0a;
 }
 
 @media (max-width: 600px) {
-  .hero-article, .hero-article img { height: 140px; max-height: 140px; }
+  .hero-article img { max-height: 110px; }
 }

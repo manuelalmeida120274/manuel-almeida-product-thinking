@@ -335,13 +335,15 @@ h1, h2 {
 
 /* ── Article hero (shorter, no crop) ── */
 .hero-article {
-  max-height: none;
-  overflow: visible;
+  max-height: none !important;
+  overflow: visible !important;
+  height: auto !important;
 }
 
 .hero-article img {
-  width: 100%;
-  height: auto;
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: fill !important;
   display: block;
-  object-fit: unset;
 }

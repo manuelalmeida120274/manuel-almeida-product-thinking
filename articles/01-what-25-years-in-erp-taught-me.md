@@ -112,6 +112,9 @@ In the end, useful software is not the software that looks the most advanced. It
 
 ---
 
+
+If you found this useful, I'd love to connect — [find me on LinkedIn](https://www.linkedin.com/in/manuelalmeida1974).
+
 *Opinions are my own.*
 
 [Back to index](/manuel-almeida-product-thinking/#articles)

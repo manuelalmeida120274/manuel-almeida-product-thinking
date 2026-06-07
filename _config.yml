@@ -1,3 +1,7 @@
 title: "Manuel Almeida"
-description: "From Developer to AI-Oriented Product Manager"
-
+description: "Product Manager with 25+ years in ERP, business software and AI-oriented product strategy."
+url: "https://manuelalmeida120274.github.io"
+baseurl: "/manuel-almeida-product-thinking"
+theme: minima
+plugins:
+  - jekyll-sitemap

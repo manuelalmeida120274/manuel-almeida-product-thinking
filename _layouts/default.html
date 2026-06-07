@@ -107,6 +107,21 @@
       html.setAttribute('data-theme', next);
       localStorage.setItem('theme', next);
     });
+
+    // Close nav when a link is clicked
+    document.querySelectorAll('.nav-items a').forEach(a => {
+      a.addEventListener('click', () => {
+        document.getElementById('nav-trigger').checked = false;
+      });
+    });
+
+    // Close nav when clicking outside
+    document.addEventListener('click', (e) => {
+      const wrap = document.querySelector('.nav-wrap');
+      if (!wrap.contains(e.target)) {
+        document.getElementById('nav-trigger').checked = false;
+      }
+    });
   </script>
 </body>
 </html>

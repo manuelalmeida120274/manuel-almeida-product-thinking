@@ -10,18 +10,17 @@
 <body>
   <header class="site-header">
     <div class="wrapper header-inner">
-      <!-- Left: hamburger + name -->
       <div class="header-left">
         <div class="nav-wrap">
           <input type="checkbox" id="nav-trigger">
-          <label for="nav-trigger" id="nav-label">
+          <label for="nav-trigger">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <line x1="3" y1="6" x2="21" y2="6"/>
               <line x1="3" y1="12" x2="21" y2="12"/>
               <line x1="3" y1="18" x2="21" y2="18"/>
             </svg>
           </label>
-          <div class="nav-items" id="nav-items">
+          <div class="nav-items">
             <a href="{{ '/' | relative_url }}">Home</a>
             <a href="{{ '/articles/01-what-25-years-in-erp-taught-me' | relative_url }}">25 Years in ERP</a>
             <a href="{{ '/articles/02-product-management-in-ai-native-business-software' | relative_url }}">AI-Native PM</a>
@@ -30,7 +29,6 @@
         </div>
         <a href="{{ '/' | relative_url }}" class="site-name">Manuel Almeida</a>
       </div>
-      <!-- Right: icons -->
       <div class="header-actions">
         <a href="https://www.linkedin.com/in/manuelalmeida1974" class="icon-link" aria-label="LinkedIn" target="_blank" rel="noopener">
           <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
@@ -83,17 +81,6 @@
       const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
       html.setAttribute('data-theme', next);
       localStorage.setItem('theme', next);
-    });
-
-    const trigger = document.getElementById('nav-trigger');
-    const label = document.getElementById('nav-label');
-    const items = document.getElementById('nav-items');
-    trigger.addEventListener('change', () => {
-      if (trigger.checked) {
-        const rect = label.getBoundingClientRect();
-        items.style.top = (rect.bottom + 8) + 'px';
-        items.style.left = rect.left + 'px';
-      }
     });
   </script>
 </body>

@@ -333,16 +333,22 @@ h1, h2 {
   scroll-margin-top: 2rem;
 }
 
-/* ── Article hero (shorter, no crop) ── */
-
 /* ── Article hero ── */
-.article-hero {
-  width: 100%;
+.hero.hero-article {
+  max-height: 200px;
+  overflow: hidden;
   margin-bottom: 2rem;
 }
 
-.article-hero img {
+.hero.hero-article img {
   width: 100%;
-  height: auto;
+  height: 200px;
+  object-fit: cover;
+  object-position: center center;
   display: block;
+}
+
+@media (max-width: 600px) {
+  .hero.hero-article,
+  .hero.hero-article img { max-height: 140px; height: 140px; }
 }

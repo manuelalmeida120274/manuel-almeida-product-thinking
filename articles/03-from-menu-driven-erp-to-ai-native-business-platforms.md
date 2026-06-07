@@ -106,6 +106,9 @@ The goal is the same as ever: help users do better work and help companies move 
 
 ---
 
+
+If you found this useful, I'd love to connect — [find me on LinkedIn](https://www.linkedin.com/in/manuelalmeida1974).
+
 *Opinions are my own.*
 
 [Back to index](/manuel-almeida-product-thinking/#articles)

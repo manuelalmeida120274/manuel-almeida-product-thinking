@@ -332,3 +332,16 @@ em {
 h1, h2 {
   scroll-margin-top: 2rem;
 }
+
+/* ── Article hero (shorter) ── */
+.hero-article img {
+  height: 200px;
+}
+
+.hero-article {
+  max-height: 200px;
+}
+
+@media (max-width: 600px) {
+  .hero-article, .hero-article img { height: 140px; max-height: 140px; }
+}

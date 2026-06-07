@@ -334,13 +334,14 @@ h1, h2 {
 }
 
 /* ── Article hero (shorter, no crop) ── */
-.hero-article {
+.hero.hero-article {
   max-height: none !important;
   overflow: visible !important;
   height: auto !important;
+  min-height: 0 !important;
 }
 
-.hero-article img {
+.hero.hero-article img {
   width: 100% !important;
   height: auto !important;
   max-height: none !important;

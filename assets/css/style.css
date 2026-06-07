@@ -327,19 +327,24 @@ em {
 .nav-items a:hover { color: var(--link); }
 
 /* ── Hamburger nav ── */
-#nav-trigger {
-  position: absolute; opacity: 0; width: 0; height: 0; pointer-events: none;
-}
-
 .nav-wrap {
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
-.nav-wrap label[for="nav-trigger"] {
-  display: flex; align-items: center; cursor: pointer;
-  color: var(--text-muted); transition: color 0.15s;
+.nav-wrap input[type="checkbox"] {
+  display: none;
 }
-.nav-wrap label[for="nav-trigger"]:hover { color: var(--link); }
+
+.nav-wrap label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: color 0.15s;
+}
+.nav-wrap label:hover { color: var(--link); }
 
 .nav-items {
   display: none;
@@ -354,7 +359,7 @@ em {
   z-index: 500;
 }
 
-#nav-trigger:checked ~ .nav-items {
+.nav-wrap input[type="checkbox"]:checked ~ .nav-items {
   display: block;
 }
 
@@ -362,7 +367,8 @@ em {
   display: block;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 0.88rem;
-  color: var(--text-muted); text-decoration: none;
+  color: var(--text-muted);
+  text-decoration: none;
   padding: 0.65rem 1rem;
   border-bottom: 1px solid var(--border);
 }

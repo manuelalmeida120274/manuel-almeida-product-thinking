@@ -55,6 +55,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 0.5rem;
 }
 
 .site-name {
@@ -64,6 +66,8 @@ body {
   color: var(--text-muted);
   text-decoration: none;
   letter-spacing: 0.02em;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .site-name:hover { color: var(--text); text-decoration: none; }
@@ -273,7 +277,11 @@ em {
 
 /* ── CSS-only dropdown nav ── */
 #nav-check {
-  display: none;
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  pointer-events: none;
 }
 
 .nav-dropdown {

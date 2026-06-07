@@ -1,6 +1,6 @@
 # What 25 Years in ERP Taught Me About Building Useful Software
 
-[Back to index](../README.md)
+[Back to index](../#articles)
 
 ---
 
@@ -114,4 +114,4 @@ In the end, useful software is not the software that looks the most advanced. It
 
 *Opinions expressed are my own and do not represent my employer or any other entity.*
 
-[Back to index](../README.md)
+[Back to index](../#articles)

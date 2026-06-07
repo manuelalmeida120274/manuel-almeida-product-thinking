@@ -6,7 +6,26 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="HandheldFriendly" content="true">
   <meta name="MobileOptimized" content="width">
-  <title>{{ page.title | default: site.title }}</title>
+  <meta name="author" content="Manuel Almeida">
+  <meta name="keywords" content="Manuel Almeida, Product Manager, ERP, AI, business software, product management, AI-native, product thinking">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Manuel Almeida">
+  <meta property="og:title" content="{{ page.title | default: site.title }} — Product Manager, ERP &amp; AI">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:url" content="https://manuelalmeida120274.github.io/manuel-almeida-product-thinking{{ page.url }}">
+  <meta property="og:image" content="https://manuelalmeida120274.github.io/manuel-almeida-product-thinking/assets/images/hero.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: site.title }} — Product Manager, ERP &amp; AI">
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+  <meta name="twitter:image" content="https://manuelalmeida120274.github.io/manuel-almeida-product-thinking/assets/images/hero.jpg">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://manuelalmeida120274.github.io/manuel-almeida-product-thinking{{ page.url }}">
+  <title>{{ page.title | default: site.title }} — Product Manager, ERP &amp; AI</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <!-- Google tag (gtag.js) -->

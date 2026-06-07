@@ -340,13 +340,8 @@ h1, h2 {
 }
 
 .hero-article img {
+  width: 100%;
   height: auto;
-  max-height: 160px;
-  object-fit: contain;
-  object-position: center;
-  background: #0a0a0a;
-}
-
-@media (max-width: 600px) {
-  .hero-article img { max-height: 110px; }
+  display: block;
+  object-fit: unset;
 }

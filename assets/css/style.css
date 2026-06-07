@@ -45,7 +45,6 @@ body {
 
 /* ── Header ── */
 .site-header {
-  position: relative;
   background: var(--header-bg);
   padding: 1.1rem 0;
   border-bottom: 1px solid var(--border);
@@ -249,9 +248,7 @@ em {
 
 .hero img {
   width: 100%;
-  max-width: 100%;
   height: 340px;
-  max-height: 340px;
   object-fit: cover;
   object-position: center 30%;
   display: block;
@@ -271,87 +268,3 @@ em {
   .hero, .hero img { max-height: 220px; height: 220px; }
 }
 
-/* ── Nav dropdown (details/summary) ── */
-.nav-dropdown {
-  position: relative;
-}
-
-.nav-dropdown summary {
-  list-style: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  color: var(--text-muted);
-  transition: color 0.15s;
-  padding: 0;
-}
-
-.nav-dropdown summary::-webkit-details-marker { display: none; }
-.nav-dropdown summary::marker { display: none; }
-.nav-dropdown summary:hover { color: var(--link); }
-
-.nav-menu {
-  position: absolute;
-  top: calc(100% + 0.75rem);
-  right: 0;
-  background: var(--header-bg);
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  min-width: 200px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  z-index: 200;
-  overflow: hidden;
-}
-
-.nav-menu a {
-  display: block;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.88rem;
-  color: var(--text-muted);
-  text-decoration: none;
-  padding: 0.65rem 1rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.nav-menu a:last-child { border-bottom: none; }
-.nav-menu a:hover { color: var(--link); text-decoration: none; }
-
-/* ── Nav overlay ── */
-.nav-toggle {
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  color: var(--text-muted);
-  transition: color 0.15s;
-}
-.nav-toggle:hover { color: var(--link); }
-
-.nav-overlay {
-  display: none;
-  position: absolute;
-  top: 100%;
-  right: 0;
-  left: 0;
-  background: var(--header-bg);
-  border-bottom: 1px solid var(--border);
-  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-  z-index: 500;
-  padding: 0.5rem 0;
-}
-
-.nav-overlay.open { display: block; }
-
-.nav-overlay a {
-  display: block;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.95rem;
-  color: var(--text-muted);
-  text-decoration: none;
-  padding: 0.75rem 1.5rem;
-  border-bottom: 1px solid var(--border);
-}
-.nav-overlay a:last-child { border-bottom: none; }
-.nav-overlay a:hover { color: var(--link); background: var(--bg); }

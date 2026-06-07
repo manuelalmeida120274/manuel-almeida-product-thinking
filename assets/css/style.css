@@ -55,8 +55,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: nowrap;
-  gap: 0.5rem;
 }
 
 .site-name {
@@ -66,8 +64,6 @@ body {
   color: var(--text-muted);
   text-decoration: none;
   letter-spacing: 0.02em;
-  white-space: nowrap;
-  flex-shrink: 0;
 }
 
 .site-name:hover { color: var(--text); text-decoration: none; }
@@ -274,32 +270,26 @@ em {
   .hero, .hero img { max-height: 220px; height: 220px; }
 }
 
-
-/* ── CSS-only dropdown nav ── */
-#nav-check {
-  position: absolute;
-  opacity: 0;
-  width: 0;
-  height: 0;
-  pointer-events: none;
-}
-
+/* ── Nav dropdown (details/summary) ── */
 .nav-dropdown {
   position: relative;
 }
 
-.nav-dropdown-toggle {
+.nav-dropdown summary {
+  list-style: none;
+  cursor: pointer;
   display: flex;
   align-items: center;
-  cursor: pointer;
   color: var(--text-muted);
   transition: color 0.15s;
+  padding: 0;
 }
 
-.nav-dropdown-toggle:hover { color: var(--link); }
+.nav-dropdown summary::-webkit-details-marker { display: none; }
+.nav-dropdown summary::marker { display: none; }
+.nav-dropdown summary:hover { color: var(--link); }
 
 .nav-menu {
-  display: none;
   position: absolute;
   top: calc(100% + 0.75rem);
   right: 0;
@@ -307,13 +297,9 @@ em {
   border: 1px solid var(--border);
   border-radius: 6px;
   min-width: 200px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   z-index: 200;
   overflow: hidden;
-}
-
-#nav-check:checked ~ .nav-menu {
-  display: block;
 }
 
 .nav-menu a {
@@ -327,4 +313,4 @@ em {
 }
 
 .nav-menu a:last-child { border-bottom: none; }
-.nav-menu a:hover { color: var(--link); background: var(--bg); }
+.nav-menu a:hover { color: var(--link); text-decoration: none; }

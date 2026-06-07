@@ -58,12 +58,6 @@ body {
   justify-content: space-between;
 }
 
-.header-left {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-}
-
 .site-name {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 0.9rem;
@@ -278,6 +272,12 @@ em {
 /* ── Nav (minima-style checkbox) ── */
 
 /* ── Hamburger nav ── */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
 .nav-wrap {
   position: relative;
   display: flex;
@@ -297,7 +297,9 @@ em {
 
 .nav-items {
   display: none;
-  position: fixed;
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
   background: var(--header-bg);
   border: 1px solid var(--border);
   border-radius: 5px;

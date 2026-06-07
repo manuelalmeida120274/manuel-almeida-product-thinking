@@ -12,6 +12,8 @@ My work sits at the intersection of business software, product strategy and tech
 
 This page brings together a few articles that reflect how I think about useful software, AI-native business products and the evolution from developer to product manager.
 
+[Connect with me on LinkedIn](https://www.linkedin.com/in/manuelalmeida1974)
+
 ---
 
 ## Articles

@@ -86,6 +86,6 @@ Good product management is not about adding intelligence everywhere. It is about
 
 ---
 
-*Opinions expressed are my own and do not represent my employer or any other entity.*
+*Opinions are my own.*
 
 [Back to index](/manuel-almeida-product-thinking/#articles)

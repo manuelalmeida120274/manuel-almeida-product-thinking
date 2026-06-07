@@ -112,6 +112,6 @@ In the end, useful software is not the software that looks the most advanced. It
 
 ---
 
-*Opinions expressed are my own and do not represent my employer or any other entity.*
+*Opinions are my own.*
 
 [Back to index](/manuel-almeida-product-thinking/#articles)

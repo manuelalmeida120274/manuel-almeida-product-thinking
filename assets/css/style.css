@@ -269,62 +269,7 @@ em {
   .hero, .hero img { max-height: 220px; height: 220px; }
 }
 
-
 /* ── Nav (minima-style checkbox) ── */
-#nav-trigger {
-  position: absolute;
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-.site-nav {
-  position: absolute;
-  top: 10px;
-  right: 1.5rem;
-  background: var(--header-bg);
-  border: 1px solid var(--border);
-  border-radius: 5px;
-  text-align: right;
-  z-index: 500;
-}
-
-.site-nav label[for="nav-trigger"] {
-  display: block;
-  float: right;
-  width: 36px;
-  height: 36px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-muted);
-}
-
-.site-nav label[for="nav-trigger"]:hover { color: var(--link); }
-
-.nav-items {
-  clear: both;
-  display: none;
-}
-
-#nav-trigger:checked ~ .nav-items {
-  display: block;
-  padding-bottom: 0.4rem;
-}
-
-.nav-items a {
-  display: block;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 0.88rem;
-  color: var(--text-muted);
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  text-align: left;
-  border-top: 1px solid var(--border);
-}
-
-.nav-items a:hover { color: var(--link); }
 
 /* ── Hamburger nav ── */
 .nav-wrap {
@@ -336,8 +281,11 @@ em {
 .nav-wrap input[type="checkbox"] { display: none; }
 
 .nav-wrap label {
-  display: flex; align-items: center; cursor: pointer;
-  color: var(--text-muted); transition: color 0.15s;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: color 0.15s;
 }
 .nav-wrap label:hover { color: var(--link); }
 
@@ -360,7 +308,8 @@ em {
   display: block;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 0.88rem;
-  color: var(--text-muted); text-decoration: none;
+  color: var(--text-muted);
+  text-decoration: none;
   padding: 0.65rem 1rem;
   border-bottom: 1px solid var(--border);
 }

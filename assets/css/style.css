@@ -325,3 +325,46 @@ em {
 }
 
 .nav-items a:hover { color: var(--link); }
+
+/* ── Hamburger nav ── */
+#nav-trigger {
+  position: absolute; opacity: 0; width: 0; height: 0; pointer-events: none;
+}
+
+.nav-wrap {
+  position: relative;
+}
+
+.nav-wrap label[for="nav-trigger"] {
+  display: flex; align-items: center; cursor: pointer;
+  color: var(--text-muted); transition: color 0.15s;
+}
+.nav-wrap label[for="nav-trigger"]:hover { color: var(--link); }
+
+.nav-items {
+  display: none;
+  position: absolute;
+  top: calc(100% + 0.6rem);
+  right: 0;
+  background: var(--header-bg);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  min-width: 180px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 500;
+}
+
+#nav-trigger:checked ~ .nav-items {
+  display: block;
+}
+
+.nav-items a {
+  display: block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.88rem;
+  color: var(--text-muted); text-decoration: none;
+  padding: 0.65rem 1rem;
+  border-bottom: 1px solid var(--border);
+}
+.nav-items a:last-child { border-bottom: none; }
+.nav-items a:hover { color: var(--link); text-decoration: none; }

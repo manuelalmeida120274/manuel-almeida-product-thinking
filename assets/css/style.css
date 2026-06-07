@@ -56,6 +56,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow: visible;
 }
 
 .site-name {
@@ -276,12 +277,14 @@ em {
   display: flex;
   align-items: center;
   gap: 0.6rem;
+  overflow: visible;
 }
 
 .nav-wrap {
   position: relative;
   display: flex;
   align-items: center;
+  overflow: visible;
 }
 
 .nav-wrap input[type="checkbox"] { display: none; }
@@ -320,6 +323,7 @@ em {
   text-decoration: none;
   padding: 0.65rem 1rem;
   border-bottom: 1px solid var(--border);
+  white-space: nowrap;
 }
 .nav-items a:last-child { border-bottom: none; }
 .nav-items a:hover { color: var(--link); text-decoration: none; }

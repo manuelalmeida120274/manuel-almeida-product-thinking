@@ -1,6 +1,6 @@
 # From Menu-Driven ERP to AI-Native Business Platforms
 
-[Back to index](../README.md)
+[Back to index](../#articles)
 
 ---
 
@@ -108,4 +108,4 @@ The goal is the same as ever: help users do better work and help companies move 
 
 *Opinions expressed are my own and do not represent my employer or any other entity.*
 
-[Back to index](../README.md)
+[Back to index](../#articles)
